@@ -1,2 +1,21 @@
 hello git!
 this is steven tang's test.
+#全套 Fork分支 - Clone - Commit提交 - Push推送 流程。
+#Fork分支
+#先找到别人的repository，然后fork到自己的，然后在自己的里面点击code，
+#clone
+#clone code网址到本地修改，
+#本地terminal输入cd ~/My-ai-projects,到指定文件夹下
+#然后输入git clone 网址，然后就宕到本地了
+#然后进入新文件夹 cd Spoon-Knife,terminal就进入该文件夹下
+#Commit提交
+#修改你需要改的地方后输入git add . 这是把所有修改/新建/删除的文件打包暂存
+#git add:添加修改；.是代表当前目录下所有文件
+#如果你只想保存一个文件，比如play.txt,可这么写git add play.txt
+
+#都打包暂存后，就可以正式存盘git commit
+输入命令：git commit -m "My first test commit"
+#作用是把把“暂存区”里的所有修改永久记录到 Git 的本地历史数据库中，
+#生成唯一加密哈希值，以后无论怎么改代码，都可以一键回这次Commit的状态
+#git commit:提交保存；-m:代表message;
+#"My first test commit",必须要用双引号，备注自己改了什么，给以后自己/别人看
